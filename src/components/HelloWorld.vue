@@ -558,7 +558,7 @@ export default {
     update() {
       var vm = this;
       axios
-        .post("/db_select", {
+        .post("/api/db_select", {
           userName: localStorage.getItem("username")
         })
         .then(function(response) {
