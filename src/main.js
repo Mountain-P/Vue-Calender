@@ -9,7 +9,7 @@ import Axios from "axios";
 Vue.config.productionTip = false;
 //Vue.use(VueRouter);
 
-Axios.defaults.baseURL = "http://localhost";
+Axios.defaults.baseURL = "";
 router.beforeEach((to, from, next) => {
   const isLogin = localStorage.getItem("token") == "ImLogin";
   if (isLogin) {
