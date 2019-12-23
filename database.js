@@ -52,9 +52,9 @@ let db = new sqlite3.Database(DBSOURCE, err => {
             "INSERT INTO events (name, start,end,details,color,onwer,share,location) VALUES (?,?,?,?,?,?,?,?)";
           db.run(insert, [
             "test event",
-            "2019-12-20",
-            "2019-12-20",
-            "test for god",
+            "2019-12-20 2:00",
+            "2019-12-20 3:00",
+            "test for god 15:00",
             "deep-purple",
             "admin",
             "",
@@ -62,8 +62,8 @@ let db = new sqlite3.Database(DBSOURCE, err => {
           ]);
           db.run(insert, [
             "test event 2",
-            "2019-12-15",
-            "2019-12-15",
+            "2019-12-15 15:00",
+            "2019-12-15 16:00",
             "test for good",
             "primary",
             "admin",
@@ -72,8 +72,8 @@ let db = new sqlite3.Database(DBSOURCE, err => {
           ]);
           db.run(insert, [
             "test event 3",
-            "2019-12-16",
-            "2019-12-16",
+            "2019-12-16 17:00",
+            "2019-12-16 18:00",
             "test for good",
             "primary",
             "user",
@@ -82,8 +82,8 @@ let db = new sqlite3.Database(DBSOURCE, err => {
           ]);
           db.run(insert, [
             "test event 4",
-            "2019-12-16",
-            "2019-12-16",
+            "2019-12-16 16:00",
+            "2019-12-16 19:00",
             "test for good",
             "primary",
             "user",
