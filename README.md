@@ -1,24 +1,33 @@
 # hello-world
 
-## Project setup
+## 技術支持
+```
+前端:Vue
+框架:Vuetufy
+後端(網頁伺服器):Express
+資料庫:Sqlite3
+```
+
+### NPM安裝
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
+### NPM編譯
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### 開始
 ```
-npm run lint
+npm run start
 ```
+### 打開瀏覽器並輸入以下網址
+```
+localhost:8080
+```
+
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
